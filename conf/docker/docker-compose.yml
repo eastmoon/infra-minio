@@ -17,6 +17,8 @@ services:
       - MINIO_ROOT_PASSWORD=adminpsw
     volumes:
       - ${MINIO_DATA_VOLUME}:/mnt/data
+    command: ["server", "/mnt/data", "--console-address", ":9001"]
+
   minio-mc:
     build:
       context: minio-mc
