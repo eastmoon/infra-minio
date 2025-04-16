@@ -1,0 +1,27 @@
+# Docker-Compose document
+# Ref : https://docs.docker.com/compose/compose-file/
+
+services:
+  minio:
+    build:
+      context: minio
+    container_name: docker-minio_${PROJECT_NAME}
+    restart: always
+    ports:
+      - 9000:9000
+      - 9001:9001
+    networks:
+      - minio-net
+    volumes:
+      - ${MINIO_DATA_VOLUME}:/mnt/data
+  minio-mc:
+    build:
+      context: minio-mc
+    container_name: docker-minio-mc_${PROJECT_NAME}
+    restart: always
+    networks:
+      - minio-net
+
+networks:
+  minio-net:
+    driver: bridge
