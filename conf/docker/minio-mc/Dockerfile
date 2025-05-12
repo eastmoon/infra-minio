@@ -1,4 +1,6 @@
 FROM minio/mc
 
+ADD docker-entrypoint.sh .
+
 # Setting Container
-ENTRYPOINT ["tail","-f","/dev/null"]
+ENTRYPOINT ["bash", "docker-entrypoint.sh"]

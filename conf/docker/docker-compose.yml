@@ -26,6 +26,10 @@ services:
     restart: always
     networks:
       - minio-net
+    environment:
+      - MINIO_HOST=http://minio:9000
+      - MINIO_ROOT_USER=admin
+      - MINIO_ROOT_PASSWORD=adminpsw
 
 networks:
   minio-net:
