@@ -48,11 +48,13 @@ minio into --tag=[service-name]
 
 對於 MinIO 客戶端 ( Client ) 操作說明，詳細文獻整理參閱 [Minio 客戶端](./docs/minio-client.md)。
 
+### 物件管理
+
+說明 MinIO 的儲存桶與物件的概念，並利用客戶端 ( Client ) 操作檔案傳輸，詳細文獻整理參閱 [物件管理](./docs/object-managenemt.md)。
+
 ### 用戶與群組
 
 ### 監控與告警
-
-### 物件管理
 
 ### 加密
 
@@ -69,3 +71,5 @@ minio into --tag=[service-name]
 + 說明與教學
     - [資料庫 - 大型物件儲存系統 MinIO 簡介](https://ambersun1234.github.io/database/database-minio/)
     - [幫非結構化資料找個家，快速入門MinIO(一)：基本概念介紹](https://medium.com/jimmyfu87/b9f7c830fd26)
++ 文獻
+    - [Publish from Kafka, Persist on MinIO](https://blog.min.io/kafka_and_minio/)
