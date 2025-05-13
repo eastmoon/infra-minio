@@ -19,6 +19,9 @@ goto end
     IF NOT EXIST %TARGET_DIR% (mkdir %TARGET_DIR%)
     echo MINIO_DATA_VOLUME=%TARGET_DIR% >> %CONF_FILE_PATH%
 
+    @rem Setting shell directory
+    echo MINIO_SHELL_VOLUME=%CLI_DIRECTORY%shell >> %CONF_FILE_PATH%
+
     goto end
 )
 

@@ -30,6 +30,8 @@ services:
       - MINIO_HOST=http://minio:9000
       - MINIO_ROOT_USER=admin
       - MINIO_ROOT_PASSWORD=adminpsw
+    volumes:
+      - ${MINIO_SHELL_VOLUME}:/shell
 
 networks:
   minio-net:
