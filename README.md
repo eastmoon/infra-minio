@@ -54,6 +54,8 @@ minio into --tag=[service-name]
 
 ### 用戶與群組
 
+說明 MinIO 用戶與群組設定與管理方式，並利用客戶端 ( Client ) 進行操作，詳細文獻整理參閱 [MinIO 身分管理](./docs/core-concept.md)。
+
 ### 監控與告警
 
 ### 加密
@@ -68,8 +70,9 @@ minio into --tag=[service-name]
     - [Configure NGINX Proxy for MinIO Server](https://min.io/docs/minio/linux/integrations/setup-nginx-proxy-with-minio.html)
     - [Upload Files Using Pre-signed URLs](https://min.io/docs/minio/linux/integrations/presigned-put-upload-via-browser.html)
     - [Posting a File with Curl](https://reqbin.com/req/c-dot4w5a2/curl-post-file)
-+ 說明與教學
++ 說明
     - [資料庫 - 大型物件儲存系統 MinIO 簡介](https://ambersun1234.github.io/database/database-minio/)
     - [幫非結構化資料找個家，快速入門MinIO(一)：基本概念介紹](https://medium.com/jimmyfu87/b9f7c830fd26)
 + 文獻
     - [Publish from Kafka, Persist on MinIO](https://blog.min.io/kafka_and_minio/)
+    - [How to limit user to access only 1 bucket in minio](https://medium.com/@740643ax6/how-to-limit-user-to-access-only-1-bucket-in-minio-05a94be94206)
