@@ -1,4 +1,4 @@
-## Declare alias
+## Declare variable
 ## Execute script
 echo "----- Show Minio client all alias -----"
 mc alias list
