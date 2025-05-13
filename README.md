@@ -48,13 +48,19 @@ minio into --tag=[service-name]
 
 對於 MinIO 客戶端 ( Client ) 操作說明，詳細文獻整理參閱 [Minio 客戶端](./docs/minio-client.md)。
 
+Demo: [test-minio-client.sh](./shell/test-minio-client.sh)
+
 ### 物件管理
 
 說明 MinIO 的儲存桶與物件的概念，並利用客戶端 ( Client ) 操作檔案傳輸，詳細文獻整理參閱 [物件管理](./docs/object-managenemt.md)。
 
+Demo: [test-minio-bucket.sh](./shell/test-minio-bucket.sh)、[test-minio-copy-data.sh](./shell/test-minio-copy-data.sh)
+
 ### 用戶與群組
 
 說明 MinIO 用戶與群組設定與管理方式，並利用客戶端 ( Client ) 進行操作，詳細文獻整理參閱 [MinIO 身分管理](./docs/core-concept.md)。
+
+Demo: [test-minio-user.sh](./shell/test-minio-user.sh)
 
 ### 監控與告警
 
