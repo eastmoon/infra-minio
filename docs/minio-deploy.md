@@ -27,3 +27,5 @@ MinIO 是一套軟體定義的高效分散式物件存儲伺服器，其拓譜 (
 ### 小結
 
 MinIO 的拓譜結構中，單點 ( Single-Node ) 可以配合驅動器結構來提高保護性，而多點 ( Multi-Node ) 則倚靠 Kubernetes cluster 概念切換執行入口確保執行端的高可用性。
+
+對於 MNMD 在產品環境的使用注意事項，參考 [Minio 核心概念](./core-concept.md)。

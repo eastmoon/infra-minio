@@ -42,11 +42,11 @@ minio into --tag=[service-name]
 
 對於 MinIO 服務拓譜部屬方式與差異，詳細文獻整理參閱 [Minio 部屬](./docs/minio-deploy.md)。
 
+對於 MinIO 服務拓譜的核心設計概念，詳細文獻整理參閱 [Minio 核心概念](./docs/core-concept.md)。
+
 ### 客戶操作
 
 對於 MinIO 客戶端 ( Client ) 操作說明，詳細文獻整理參閱 [Minio 客戶端](./docs/minio-client.md)。
-
-### 核心概念
 
 ### 用戶與群組
 
