@@ -58,7 +58,7 @@ Demo: [test-minio-bucket.sh](./shell/test-minio-bucket.sh)、[test-minio-copy-da
 
 ### 用戶與群組
 
-說明 MinIO 用戶與群組設定與管理方式，並利用客戶端 ( Client ) 進行操作，詳細文獻整理參閱 [MinIO 身分管理](./docs/core-concept.md)。
+說明 MinIO 用戶與群組設定與管理方式，並利用客戶端 ( Client ) 進行操作，詳細文獻整理參閱 [MinIO 身分管理](./docs/core-identity.md)。
 
 Demo: [test-minio-user.sh](./shell/test-minio-user.sh)
 
