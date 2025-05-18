@@ -1,12 +1,12 @@
-## 監控與告警
+## Minio 監控與告警
 
 + [Monitoring and Alerts](https://min.io/docs/minio/container/operations/monitoring.html)
 
 ### Monitoring and Alerts
 
-MinIO 使用 Prometheus 資料模型發佈時間點指標 ( point-in-time metrics )，用戶可以使用支援該資料模型的任何資料庫，提取訊息並建立圖表、資料分析進而規劃警報。
+MinIO 使用 Prometheus 資料模型發佈時間點指標 ( point-in-time metrics )，用戶可以使用支援該資料模型的任何資料庫，提取訊息並建立圖表、資料分析進而規劃告警。
 
-在文獻中 MinIO 提供 Prometheus 與 InfuxDB 的範本，本專案以 [Monitoring and Alerting using Prometheus](https://min.io/docs/minio/container/operations/monitoring/collect-minio-metrics-using-prometheus.html#minio-metrics-collect-using-prometheus) 為監控與警報的執行範本。
+在文獻中 MinIO 提供 Prometheus 與 InfuxDB 的範本，本專案以 [Monitoring and Alerting using Prometheus](https://min.io/docs/minio/container/operations/monitoring/collect-minio-metrics-using-prometheus.html#minio-metrics-collect-using-prometheus) 為監控與告警的執行範本。
 
 #### Generate the Scrape Configuration
 
@@ -27,7 +27,7 @@ MinIO 使用 Prometheus 資料模型發佈時間點指標 ( point-in-time metric
 
 #### Configure an Alert Rule using MinIO Metrics
 
-使用 Prometheus 的 [Alert Rule](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/) 產生警報資訊。
+使用 Prometheus 的 [Alert Rule](https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/) 產生告警資訊。
 
 #### Dashboard
 

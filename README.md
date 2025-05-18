@@ -64,6 +64,8 @@ Demo: [test-minio-user.sh](./shell/test-minio-user.sh)
 
 ### 監控與告警
 
+說明 MinIO 如何實作監控與告警機制，詳細文獻整理參閱 [Minio 監控與告警](./docs/monitor.md)。
+
 ### 加密
 
 ## 文獻
